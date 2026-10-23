@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ku" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MOGHAFOOR | Bir w Ray Bwer — Political activism, human rights and media in London.">
+  <title>MOGHAFOOR | Bir w Ray Bwer</title>
+  <style>
+    :root{--bg:#101318;--panel:#191e25;--gold:#d7b56d;--text:#f4f1e9;--muted:#b8bdc5;--line:#343a43}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Noto Sans Arabic",sans-serif;line-height:1.75}
+    a{color:inherit;text-decoration:none} .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#101318ed;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 0;flex-wrap:wrap}
+    .brand{font-weight:800;letter-spacing:1.5px;font-size:1.05rem}.brand span{color:var(--gold)}
+    nav{display:flex;gap:17px;flex-wrap:wrap;font-size:.92rem;color:var(--muted)}
+    nav a:hover,.gold{color:var(--gold)} button,.btn{border:1px solid var(--gold);background:var(--gold);color:#171717;border-radius:8px;padding:9px 14px;font-weight:700;cursor:pointer}
+    .lang{background:transparent;color:var(--gold);padding:7px 11px}
+    .hero{padding:76px 0 55px;background:radial-gradient(ellipse at 20% 10%,#40351f 0%,transparent 38%),linear-gradient(135deg,#11151a,#191e25)}
+    .eyebrow{color:var(--gold);letter-spacing:2px;font-size:.8rem;font-weight:700}
+    h1{font-size:clamp(2.4rem,7vw,5.4rem);line-height:1.08;margin:15px 0 5px;letter-spacing:1px}
+    .subbrand{font-size:clamp(1.2rem,3vw,2rem);font-weight:700;color:var(--gold);margin:12px 0}
+    .lead{font-size:1.08rem;color:var(--muted);max-width:720px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn.secondary{background:transparent;color:var(--gold)}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+    .visual{min-height:290px;border:1px solid #645332;border-radius:18px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(145deg,#29261f,#171b21);box-shadow:0 20px 55px #0005}
+    .visual .mark{font-size:4.3rem;color:var(--gold);font-weight:900;line-height:1}
+    .visual .quote{font-size:1.2rem;font-weight:700}
+    section{padding:62px 0}.section-head{margin-bottom:25px}.section-head h2{font-size:clamp(1.7rem,4vw,2.4rem);margin:0}.section-head p{color:var(--muted);margin:5px 0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:22px}
+    .icon{color:var(--gold);font-size:1.6rem}.card h3{margin:7px 0}.card p{color:var(--muted);margin:0}
+    .timeline{display:grid;gap:13px}.event{display:grid;grid-template-columns:155px 1fr;gap:20px;padding:19px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+    .date{color:var(--gold);font-weight:700}.event p{margin:3px 0 0;color:var(--muted)}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:start}.notice{border-right:3px solid var(--gold);padding:10px 18px;background:#d7b56d12;color:var(--muted)}
+    .contact-box{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap;background:linear-gradient(120deg,#24231f,#191e25);border:1px solid #645332;border-radius:16px;padding:27px}
+    footer{border-top:1px solid var(--line);padding:23px 0;color:var(--muted);font-size:.85rem}
+    .ltr{direction:ltr;text-align:left} .ltr nav{direction:ltr}
+    @media(max-width:760px){.hero-grid,.about{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.event{grid-template-columns:1fr;gap:3px}.visual{min-height:220px}.nav{align-items:flex-start}nav{gap:11px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">MOGHAFOOR <span>|</span> BIR W RAY BWER</a>
+  <nav>
+    <a href="#about" data-ku="دەربارە" data-en="About">دەربارە</a>
+    <a href="#activities" data-ku="چالاکییەکان" data-en="Activities">چالاکییەکان</a>
+    <a href="#speeches" data-ku="وتار و میدیا" data-en="Speeches & Media">وتار و میدیا</a>
+    <a href="#contact" data-ku="پەیوەندی" data-en="Contact">پەیوەندی</a>
+  </nav>
+  <button class="lang" id="languageButton" type="button">English</button>
+</div></header>
+<main>
+  <section class="hero" id="home"><div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow" data-ku="چالاکیی سیاسی · مافی مرۆڤ · لەندەن" data-en="POLITICAL ACTIVISM · HUMAN RIGHTS · LONDON">چالاکیی سیاسی · مافی مرۆڤ · لەندەن</div>
+      <h1>MOGHAFOOR</h1>
+      <div class="subbrand">Bir w Ray Bwer</div>
+      <p class="lead" data-ku="پلاتفۆرمێکی کەسی بۆ بەڵگەکردنی چالاکییەکان، وتارەکان و کارەکانی پەیوەندیدار بە مافی مرۆڤ لە لەندەن و دەرەوەی ئەو." data-en="A personal platform documenting activism, public speeches and human-rights work in London and beyond.">پلاتفۆرمێکی کەسی بۆ بەڵگەکردنی چالاکییەکان، وتارەکان و کارەکانی پەیوەندیدار بە مافی مرۆڤ لە لەندەن و دەرەوەی ئەو.</p>
+      <div class="actions">
+        <a class="btn" href="#activities" data-ku="بینینی چالاکییەکان" data-en="Explore activities">بینینی چالاکییەکان</a>
+        <a class="btn secondary" href="#about" data-ku="دەربارەی من" data-en="About me">دەربارەی من</a>
+      </div>
+    </div>
+    <div class="visual">
+      <div class="mark">M.</div>
+      <div>
+        <div class="eyebrow">INDEPENDENT VOICE · LONDON</div>
+        <div class="quote" data-ku="دەنگێک بۆ ڕاستی، کرامەت و مافی مرۆڤ." data-en="A voice for truth, dignity and human rights.">دەنگێک بۆ ڕاستی، کرامەت و مافی مرۆڤ.</div>
+      </div>
+      <div class="gold">KU • EN</div>
+    </div>
+  </div></section>
+  <section id="about"><div class="wrap">
+    <div class="section-head"><h2 data-ku="دەربارەی من" data-en="About me">دەربارەی من</h2><p data-ku="ناسنامە و ئامانجی چالاکییەکانم" data-en="My profile and purpose">ناسنامە و ئامانجی چالاکییەکانم</p></div>
+    <div class="about">
+      <div>
+        <p data-ku="من چالاکوانێکی سیاسی و مافی مرۆڤم لە لەندەن. ئەم ماڵپەڕە بۆ تۆمارکردنی چالاکییە گشتییەکانم، وتارەکانم و بابەتەکانی پەیوەندیدار بە مافی مرۆڤ دروست کراوە." data-en="I am a political and human-rights activist based in London. This website documents my public activities, speeches and work related to human rights.">من چالاکوانێکی سیاسی و مافی مرۆڤم لە لەندەن. ئەم ماڵپەڕە بۆ تۆمارکردنی چالاکییە گشتییەکانم، وتارەکانم و بابەتەکانی پەیوەندیدار بە مافی مرۆڤ دروست کراوە.</p>
+        <p data-ku="ئامانج، پاراستنی ئارشیڤێکی دیجیتاڵ و ئاسانکردنی دەستگەیشتن بە زانیاری و بەڵگەی چالاکییەکانە." data-en="The aim is to maintain a clear digital archive and make information about activities accessible.">ئامانج، پاراستنی ئارشیڤێکی دیجیتاڵ و ئاسانکردنی دەستگەیشتن بە زانیاری و بەڵگەی چالاکییەکانە.</p>
+      </div>
+      <div class="notice" data-ku="تێبینی: ئەم پەڕەیە پرۆفایلی کەسییە. ناو، وێنە، ڕێکخراو و زانیارییەکان پێش بڵاوکردنەوە پشکنین و تەواو بکە." data-en="Note: This is a personal profile. Review and complete names, images, organisations and details before publishing.">تێبینی: ئەم پەڕەیە پرۆفایلی کەسییە. ناو، وێنە، ڕێکخراو و زانیارییەکان پێش بڵاوکردنەوە پشکنین و تەواو بکە.</div>
+    </div>
+  </div></section>
+  <section id="activities"><div class="wrap">
+    <div class="section-head"><h2 data-ku="چالاکییەکان" data-en="Activities">چالاکییەکان</h2><p data-ku="بەشێک بۆ تۆمارکردنی چالاکی و ڕووداوەکان" data-en="A place to document activities and events">بەشێک بۆ تۆمارکردنی چالاکی و ڕووداوەکان</p></div>
+    <div class="timeline">
+      <article class="event"><div class="date">16 September 2026</div><div><strong data-ku="چالاکی لە بەردەم باڵیۆزخانەی عێراق لە لەندەن" data-en="Activity outside the Iraqi Embassy in London">چالاکی لە بەردەم باڵیۆزخانەی عێراق لە لەندەن</strong><p data-ku="بابەت: نەخێر بە عەرەبیکردنی کوردستان. وێنە و ڤیدیۆی پشتڕاستکراو زیاد بکە." data-en="Topic: No to the Arabization of Kurdistan. Add verified photos and video.">بابەت: نەخێر بە عەرەبیکردنی کوردستان. وێنە و ڤیدیۆی پشتڕاستکراو زیاد بکە.</p></div></article>
+      <article class="event"><div class="date">10 June 2026</div><div><strong data-ku="چالاکیی مافی مرۆڤ لە لەندەن" data-en="Human-rights activity in London">چالاکیی مافی مرۆڤ لە لەندەن</strong><p data-ku="سەردێڕ و وردەکاریی ڕووداوەکە لێرە زیاد بکە." data-en="Add the event headline and details here.">سەردێڕ و وردەکاریی ڕووداوەکە لێرە زیاد بکە.</p></div></article>
+      <article class="event"><div class="date">2025</div><div><strong data-ku="ئارشیڤی چالاکییەکانی پێشوو" data-en="Archive of earlier activities">ئارشیڤی چالاکییەکانی پێشوو</strong><p data-ku="بەروار، شوێن، ئامانج و وێنەی هەر چالاکییەک بە جیا زیاد بکە." data-en="Add each activity with its date, location, purpose and photos.">بەروار، شوێن، ئامانج و وێنەی هەر چالاکییەک بە جیا زیاد بکە.</p></div></article>
+    </div>
+  </div></section>
+  <section id="speeches"><div class="wrap">
+    <div class="section-head"><h2 data-ku="وتار و میدیا" data-en="Speeches & Media">وتار و میدیا</h2><p data-ku="وتار، لێدوان، ڤیدیۆ و بڵاوکراوەکان" data-en="Speeches, interviews, videos and publications">وتار، لێدوان، ڤیدیۆ و بڵاوکراوەکان</p></div>
+    <div class="cards">
+      <article class="card"><div class="icon">✦</div><h3 data-ku="وتارەکان" data-en="Speeches">وتارەکان</h3><p data-ku="دەقی وتارەکانت بە کوردی و ئینگلیزی زیاد بکە." data-en="Publish your speeches in Kurdish and English.">دەقی وتارەکانت بە کوردی و ئینگلیزی زیاد بکە.</p></article>
+      <article class="card"><div class="icon">▣</div><h3 data-ku="وێنە و ڤیدیۆ" data-en="Photos & video">وێنە و ڤیدیۆ</h3><p data-ku="لینکی ئەلبوم و ڤیدیۆی بڵاوکراوەکان زیاد بکە." data-en="Add links to photo albums and published videos.">لینکی ئەلبوم و ڤیدیۆی بڵاوکراوەکان زیاد بکە.</p></article>
+      <article class="card"><div class="icon">◉</div><h3 data-ku="ڕاگەیاندن" data-en="Media coverage">ڕاگەیاندن</h3><p data-ku="لینکی لێدوان و ڕاپۆرتەکانی میدیا زیاد بکە." data-en="Add links to interviews and media reports.">لینکی لێدوان و ڕاپۆرتەکانی میدیا زیاد بکە.</p></article>
+    </div>
+  </div></section>
+  <section id="contact"><div class="wrap">
+    <div class="contact-box">
+      <div><div class="eyebrow" data-ku="پەیوەندی" data-en="CONTACT">پەیوەندی</div><h2 data-ku="بۆ پەیوەندی و پرسیاری میدیا" data-en="Contact & media enquiries">بۆ پەیوەندی و پرسیاری میدیا</h2><p class="lead" data-ku="ئیمەیلی گشتی یان لینکە فەرمییەکانت لێرە دابنێ. زانیاریی تایبەت بڵاو مەکەرەوە." data-en="Add a public email address or official social links here. Do not publish private contact details.">ئیمەیلی گشتی یان لینکە فەرمییەکانت لێرە دابنێ. زانیاریی تایبەت بڵاو مەکەرەوە.</p></div>
+      <a class="btn secondary" href="#home" data-ku="گەڕانەوە بۆ سەرەوە ↑" data-en="Back to top ↑">گەڕانەوە بۆ سەرەوە ↑</a>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> MOGHAFOOR | Bir w Ray Bwer · <span data-ku="مافی بڵاوکردنەوە پارێزراوە." data-en="All rights reserved.">مافی بڵاوکردنەوە پارێزراوە.</span></div></footer>
+<script>
+  let language = "ku";
+  const button = document.getElementById("languageButton");
+  function setLanguage(next) {
+    language = next;
+    document.documentElement.lang = next === "ku" ? "ku" : "en";
+    document.documentElement.dir = next === "ku" ? "rtl" : "ltr";
+    document.body.classList.toggle("ltr", next === "en");
+    document.querySelectorAll("[data-ku][data-en]").forEach(el => { el.textContent = el.dataset[next]; });
+    button.textContent = next === "ku" ? "English" : "کوردی";
+  }
+  button.addEventListener("click", () => setLanguage(language === "ku" ? "en" : "ku"));
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
